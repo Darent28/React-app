@@ -20,7 +20,9 @@ function App() {
       <p>No connection 0_0</p>
     ): (
       backendData.users.map((user, i) => (
-        <p key={i}>{user}</p>
+        //<p key={i}>{user}</p>
+        <h1>Web page</h1>
+
       ))
     ) }
 
