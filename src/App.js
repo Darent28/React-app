@@ -1,16 +1,23 @@
-import Home from "./pages/home";
 import HeaderPs from "./pages/header";
+import Home from "./pages/home";
+import LogIn from "./pages/login";
+import SignIn from "./pages/singin";
 import React, { useEffect, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+
+
 
 
 function App() {
 
   return (
     <body>
-
         <HeaderPs />
-        <Home />
-
+          <Routes>
+              <Route path='/' element={  <Home />  } />
+              <Route path='/log-in' element={ <LogIn />  } />
+              <Route path='/sign-in' element={ <SignIn />  } />         
+          </Routes>
     </body>
    
     // <div>
