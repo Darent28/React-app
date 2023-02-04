@@ -23,7 +23,7 @@ export const LogIn = () => {
                         <input type="password" class="form-control" name="password" aria-describedby="username" />
                     </label>
                 </div>
-                <button type="submit" class="btn btn-secondary">|-------- Log in --------|</button>
+                <button type="submit" class="btn btn-secondary">|--------- Log in ---------|</button>
                 </div>
               
                
