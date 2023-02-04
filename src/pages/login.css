@@ -1,11 +1,31 @@
 .login {
     margin: auto;
     line-height: 50px;
-    width: 30%;
-    border: 3px solid;
-    background: #ffffff;
-    color: rgb(34, 34, 38);
+    width: 25%;
+    border: 1px solid;
+    background: #201d29;
+    color: rgb(132, 131, 137);
     padding: 20px;
-    border-radius: 15px 50px;
+    border-radius: 15px ;
+    
+}
+
+.inputs {
+    height: 250px;
+    width: 50%;
+}
+
+input {
+    margin-right: 300px;
+}
+
+button {
+    
+    margin-right: -155px;
+    
+}
+
+.top {
+    margin-top: 50px;
     
 }

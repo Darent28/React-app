@@ -5,11 +5,12 @@ import './login.css';
 export const LogIn = () => {
     
     return(
-        <body>
-           
+        <body className='top'>
+            <h1 align="center">Ps</h1>
+            <p align="center">LogIn</p>
             <form align="center" class= "login">
-            <h1 align="center">LogIn</h1>
-            <p align="center">This Is LogIn site</p>
+         
+                <div className='inputs'>
                 <div class="form-group">
                     <label for="username">
                         Username:
@@ -22,8 +23,10 @@ export const LogIn = () => {
                         <input type="password" class="form-control" name="password" aria-describedby="username" />
                     </label>
                 </div>
-                <br />
-                <button type="submit" class="btn btn-secondary">Submit</button>
+                <button type="submit" class="btn btn-secondary">|-------- Log in --------|</button>
+                </div>
+              
+               
             </form>
 
         </body> 
