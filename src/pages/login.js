@@ -7,7 +7,7 @@ export const LogIn = () => {
     return(
         <body className='top'>
             <h1 align="center">Ps</h1>
-            <p align="center">LogIn</p>
+            <p align="center">Log in to PostSite</p>
             <form align="center" class= "login">
          
                 <div className='inputs'>
