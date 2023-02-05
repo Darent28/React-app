@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './login.css';
+import { Link } from 'react-router-dom';
 
 export const LogIn = () => {
     
@@ -17,18 +18,17 @@ export const LogIn = () => {
                         <input type="text" class="form-control" name="name" aria-describedby="username" />
                     </label>
                 </div>
-                <div class="form-group">
+                <div class="form-group ">
                     <label for="password">
-                        Password:
+                        Password: 
                         <input type="password" class="form-control" name="password" aria-describedby="username" />
                     </label>
+                   
                 </div>
-                <button type="submit" class="btn btn-secondary">|--------- Log in ---------|</button>
+                <button type="submit" class="btn btn-secondary">Log in</button>
                 </div>
-              
-               
             </form>
-
+            <p class="account">New to PostSite? <a class="forgot" href="./sign-in">Create account</a>.</p>
         </body> 
     )
 }
