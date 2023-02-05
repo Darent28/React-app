@@ -10,17 +10,17 @@ export const LogIn = () => {
             <p align="center">Log in to PostSite</p>
             <form align="center" class= "login">
          
-                <div className='inputs'>
+                <div class='inputs'>
                 <div class="form-group">
                     <label for="username">
                         Username:
-                        <input type="text" class="form-control" name="name" aria-describedby="username" />
+                        <input type="text" class="form-control" name="name" aria-describedby="username" required/>
                     </label>
                 </div>
                 <div class="form-group ">
                     <label for="password">
                         Password: 
-                        <input type="password" class="form-control" name="password" aria-describedby="username" />
+                        <input type="password" class="form-control" name="password" aria-describedby="username" required/>
                     </label>
                    
                 </div>
