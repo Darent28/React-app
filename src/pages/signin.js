@@ -4,6 +4,8 @@ import './signin.css';
 
 export const SignIn = () => {
     
+    const Alert = {}
+
     return(
         <body className='top'>
             <h1 align="center">Sign In</h1>
