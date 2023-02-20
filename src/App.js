@@ -2,7 +2,7 @@ import HeaderPs from "./pages/header";
 import Home from "./pages/home";
 import LogIn from "./pages/login";
 import SignIn from "./pages/signin";
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 

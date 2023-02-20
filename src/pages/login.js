@@ -8,24 +8,22 @@ export const LogIn = () => {
         <body className='top'>
             <h1 align="center">Ps</h1>
             <p align="center">Log in to PostSite</p>
-            <form align="center" class= "login">
+            <form action="http://localhost:5000/login/:name" method="GET" align="center" class= "login">
          
-                <div class='inputs'>
                 <div class="form-group">
                     <label for="username">
                         Username:
-                        <input type="text" class="form-control" name="name" aria-describedby="username" required/>
+                        <input type="text" class="form-control" name="name" aria-describedby="name" required/>
                     </label>
                 </div>
                 <div class="form-group ">
                     <label for="password">
                         Password: 
-                        <input type="password" class="form-control" name="password" aria-describedby="username" required/>
+                        <input type="password" class="form-control" name="password" aria-describedby="password" required/>
                     </label>
                    
                 </div>
                 <button type="submit" class="btn btn-secondary">Log in</button>
-                </div>
             </form>
             <p class="account">New to PostSite? <a class="forgot" href="./sign-in">Create account</a>.</p>
         </body> 
