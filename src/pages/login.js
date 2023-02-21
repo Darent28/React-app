@@ -8,7 +8,7 @@ export const LogIn = () => {
         <body className='top'>
             <h1 align="center">Ps</h1>
             <p align="center">Log in to PostSite</p>
-            <form action="http://localhost:5000/login/:name" method="GET" align="center" class= "login">
+            <form action="http://localhost:5000/login" method="GET" align="center" class= "login">
          
                 <div class="form-group">
                     <label for="username">
