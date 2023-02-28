@@ -41,10 +41,10 @@ export const SignIn = () => {
         case "password":
           if (!value) {
             stateObj[name] = "Please enter Password.";
-          } else if (input.confirmPassword && value !== input.confirmPassword) {
+          } else if (input.password_confirm && value !== input.password_confirm) {
             stateObj["password_confirm"] = "Password and Confirm Password does not match.";
           } else {
-            stateObj["password_confirm"] = input.confirmPassword ? "" : error.confirmPassword;
+            stateObj["password_confirm"] = input.password_confirm ? "" : error.password_confirm;
           }
           break;
  
@@ -111,7 +111,7 @@ export const SignIn = () => {
                 </div>
                 <div class="form-group ">
                     <label for="password-confirm">
-                        Password confirm: 
+                        Confirm Password: 
                         <input 
                         type="password" 
                         class="form-control" 
