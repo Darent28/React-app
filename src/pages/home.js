@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.css'
 import './home.css'
 
 export const Home = () => {
@@ -7,6 +8,14 @@ export const Home = () => {
         <body>
             <h1 align="center">PostSite</h1>
             <p align="center">My website using React, by David Elizondo Ramos.</p>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Name</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">publish date</h6>
+                    <p class="card-text">Text publish: Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   
+                </div>
+            </div>
         </body> 
     )
 }
