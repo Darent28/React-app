@@ -10,8 +10,18 @@ export const Home = () => {
             <p align="center">My website using React, by David Elizondo Ramos.</p>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Name</h5>
+                    <h5 class="card-title">Username</h5>
                     <h6 class="card-subtitle mb-2 text-muted">publish date</h6>
+                    <br/>
+                    <p class="card-text">Text publish: Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Username</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">publish date</h6>
+                    <br/>
                     <p class="card-text">Text publish: Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                    
                 </div>
